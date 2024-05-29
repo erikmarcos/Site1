@@ -2,36 +2,53 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Erik - Desenvolvedor Front-end</title>
+    <link rel="stylesheet" href="./Estilos/style.css">
 </head>
+
 <body>
-    <header></header>
+    <header class="cabecalho">
+        <nav class="cabecalho__menu">
+            <a class="cabecalho__menu__link" href="./index.html">Home</a>
+            <a class="cabecalho__menu__link" href="./about.html">Sobre mim</a>
+        </nav>
+    </header>
+
     <main class="apresentacao">
-        <section>
-            <h1>
-                    Eleve seu negócio digital a outro nível com um <strong class="destaque-titulo">Front-end de qualidade</strong>!
-            </h1>
-            <p> 
-                    Olá! Meu nome é Erik Marcos, sou desenvolvedor Front-end com especializações em Marketing Digital para pequenos empresas. Ajudo pequenos negócios e designers a colocarem em prática, na web, suas boas ideias. Vamos conversar?
-            </p>
-                <img src="Imagens/ibagem2.jpeg" alt="Rapaz programando em seu computador">
+    <section class="apresentacao__conteudo">
+            <h1 class="apresentacao__conteudo__titulo"> Eleve seu negócio digital a outro nível com um <strong class="destaque-titulo">Front-end de qualidade</strong>!</h1>
+            <p class="apresentacao__conteudo__texto"> Olá! Meu nome é Erik Marcos, sou desenvolvedor Front-end com especializações em Marketing Digital para pequenos empresas. Ajudo pequenos negócios a colocarem em prática
+                 suas boas ideias na internet. Vamos conversar? </p>
 
-                <img src="./Ícones/instagram.png"> 
-                
-                <a href="https://instagram.com/erkmrcs_">Instagram </a>
+    <div class="apresentacao__links">
 
-                <img src="./Ícones/linkedin.png">
+        <h2 class="apresentacao__links__subtitulo">Acesse minhas redes:</h2>
 
-                <a href="https://www.linkedin.com/in/erik-m-gambini/">Linkedin </a>
+    
+        <a class="apresentacao__links__redes" href="https://www.linkedin.com/in/erik-m-gambini/">
+            <img src="./Imagens/Ícones/linkedin.png"> 
+         Linkedin
+        </a>
+            
+        <a class="apresentacao__links__redes" href="https://github.com/erikmarcos">
+            <img src="./Imagens/Ícones/github.png">
+            Github 
+        </a>    
+    </div>
 
-                <img src="./Ícones/github.png">
+    </section>      
 
-                <a href="https://github.com/erikmarcos">Github </a>
+            <img class="apresentacao__imagem" src="Imagens/ibagem2.jpeg" alt="Rapaz programando em seu computador">
 
-        </section>        
     </main>
-    <footer></footer>
+
+    <footer>
+        <p class="rodape">Desenvolvido por Erik Marcos Gambini</p>
+    </footer>
+
 </body>
+
+
 </html>
